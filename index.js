@@ -6,10 +6,8 @@ console.log(x)
 
 var o = x.split("\n")
 
-var y = o[1]
-
+var y = o[0]+o[1]+o[2]
 var i = 0
-
 var t = 0
 
 o.forEach((element, index) => {
